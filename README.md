@@ -17,7 +17,7 @@ This is a brute force script to discover hidden directories on a web server. It 
 ### Installation
 1. Clone the repository or download the file:
    ```bash
-   git clone https://github.com/your-repository/directory-brute-force.git
+   git clone https://github.com/Cleowilafe/Directory-brute-force.git
    ```
 2. Install dependencies:
    ```bash
@@ -27,7 +27,7 @@ This is a brute force script to discover hidden directories on a web server. It 
 ### Execution
 Run the script specifying the target URL and a wordlist:
 ```bash
-python brute_force.py -u http://example.com -w wordlist.txt
+python fox.py -u http://example.com -w wordlist.txt
 ```
 
 ### Parameters
@@ -36,7 +36,7 @@ python brute_force.py -u http://example.com -w wordlist.txt
 
 ## Usage Example
 ```bash
-python brute_force.py -u http://mywebsite.com -w common_dirs.txt
+python fox.py -u http://mywebsite.com -w common_dirs.txt
 ```
 
 ## Note
